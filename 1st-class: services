@@ -1,0 +1,23 @@
+ec2: virtual server in the cloud
+     we run appliaction here, we maintain our database. i can store my files in ec2.
+
+vpc: virtual private cloud
+  it is isolated virtual network.
+  which services is in vpc, we need to provide security.
+  
+
+openVPN:  when our applicatiion is in private server and we dont have direct access to connect it bcz it ignores. we can't interact with this appliacation through interenet
+          so, we have 2 optiions 
+          1. basion host : same as vpn, using ssh command we can connect to private server.
+          2. open vpn : open vpn in public subnet, so i can have chnace to communication private subnet from public subnet.
+
+Bastion Host:
+
+load balancer: to distribute the traffic accross servers.
+
+autoscaling: 
+
+Security Hub:
+
+cloud watch:
+
