@@ -15,9 +15,19 @@ Bastion Host:
 
 load balancer: to distribute the traffic accross servers.
 
-autoscaling: 
+autoscaling: based on demand automatically increase and decrese servers.
+               2 types:
+                    horizontal scaling : maintaining servers
+                    vertical scaling : we can chnage the configurations
+in auto scaling we have policies:
+     1.simple scaling :
+     2.step scaling :companies are using step scaling now.
+     3.target scaling :
 
 Security Hub:
 
-cloud watch:
+cloud watch: it monitors of our operational health. if cpu utlization increases to 70% i run a command in cloud watch to give a sms to my email and update servers.
+     when we attach the cloud watch with autoscaling it increases and decreases the services automatically.
+
+
 
